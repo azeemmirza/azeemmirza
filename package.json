@@ -2,7 +2,7 @@
   "name": "azeemmirza",
   "version": "1.0.0",
   "description": "Business Card Repo",
-  "main": "index.old.js",
+  "main": "index.js",
   "license": "MIT",
   "author": {
     "name": "Azeem Mirza",
