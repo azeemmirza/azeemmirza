@@ -1,4 +1,4 @@
-#[Azeem Mirza](https://www.npmjs.com/package/azeemmirza)
+# [Azeem Mirza](https://www.npmjs.com/package/azeemmirza)
 
 
 Run below from your terminal.
