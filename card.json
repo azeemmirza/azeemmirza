@@ -1,0 +1,44 @@
+{
+  "title": "AZEEM MIRZA",
+  "subtitle": "Software Engineer | Data Scientist",
+
+  "email": "azeem@azeemmirza.net",
+  "website":  "https://azeemmirza.net",
+  "work": {
+    "title": "Sr. Software Engineer",
+    "company": "Social Champ"
+  },
+
+  "command": "npx azeemmirza",
+
+  "links": [
+    {
+      "type" : "Facebook",
+      "link": "https://facebook.com/AzeemMirzaOfficial"
+    },
+    {
+      "type" : "Twitter",
+      "link": "https://twitter.com/AzeeemMirza"
+    },
+    {
+      "type" : "LinkedIn",
+      "link": "https://linkedin.com/AzeeemMirza"
+    },
+    {
+      "type" : "Instagram",
+      "link": "https://instagram.com/AzeeemMirza"
+    },
+    {
+      "type" : "Github",
+      "link": "https://github.com/AzeemMirza"
+    },
+    {
+      "type" : "Medium",
+      "link": "https://medium.com/@AzeemMirza"
+    },
+    {
+      "type" : "YouTube",
+      "link": "https://www.youtube.com/channel/UC7BlAb-6XYhHb3p7VrDLHgw"
+    }
+  ]
+}
