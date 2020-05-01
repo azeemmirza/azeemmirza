@@ -2,7 +2,7 @@
   "name": "azeemmirza",
   "version": "1.0.0",
   "description": "Business Card Repo",
-  "main": "index.js",
+  "main": "index.old.js",
   "license": "MIT",
   "author": {
     "name": "Azeem Mirza",
@@ -10,10 +10,10 @@
     "url": "https://azeemmirza.net/"
   },
   "scripts": {
-    "start": "node .",
+    "start": "node ."
   },
   "bin": {
-    "azeemmirza": "./index.js"
+    "azeemmirza": "index.js"
   },
   "homepage": "https://github.com/azeemmirza/azeemmirza#readme",
   "repository": {
@@ -30,6 +30,6 @@
     "e-card"
   ],
   "dependencies": {
-    "colorette": "^1.1.0"
-  },
+    "colors": "^1.4.0"
+  }
 }
