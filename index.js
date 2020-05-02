@@ -1,7 +1,6 @@
 #! /usr/bin/env node
 
 const data = require('./card.json');
-const figures = require('figures');
 const colors = require('colors');
 const log = console.log;
 
