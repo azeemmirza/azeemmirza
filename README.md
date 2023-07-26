@@ -27,7 +27,7 @@
 </a>
 </div>
 
----
+<!---
 
 ## Technologies
 
@@ -81,10 +81,8 @@
 ![](https://img.shields.io/badge/Netlify-333?style=for-the-badge&logo=netlify&logoColor=00C7B7)
 ![](https://img.shields.io/badge/Amazon_AWS-333?style=for-the-badge&logo=amazon-aws&logoColor=FF9900)
 
-
+-->
 ---
-
-Run below from your terminal.
 ```bash
 npx azeemmirza
 ```
