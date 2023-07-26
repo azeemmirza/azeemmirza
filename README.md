@@ -22,8 +22,11 @@
 <a href="https://github.com/azeemmirza" style="margin: 0 4px">
 <img src="https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white" alt="Azeem Mirza Web Site">
 </a>
+<a href="https://azeemmirza.co/projects" style="margin: 0 4px">
+<img src="https://img.shields.io/badge/projects-000000?style=for-the-badge&logo=buffer&logoColor=white" alt="Projects">
+</a>
 <a href="https://azeemmirza.co/rss" style="margin: 0 4px">
-<img src="https://img.shields.io/badge/rss-000000?style=for-the-badge&logo=rss&logoColor=white" alt="Azeem Mirza Web Site">
+<img src="https://img.shields.io/badge/rss-000000?style=for-the-badge&logo=rss&logoColor=white" alt="RSS">
 </a>
 </div>
 
