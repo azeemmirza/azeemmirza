@@ -4,7 +4,10 @@
 <a href="https://azeemmirza.co">
 <img src="https://img.shields.io/badge/website-000?style=for-the-badge&logo=atandt&logoColor=white" alt="Azeem Mirza Web Site">
 </a>
-
+<div style="text-align:center">
+<a href="https://azeemmirza.co/blog">
+<img src="https://img.shields.io/badge/Blog-000?style=for-the-badge&logo=wordpress&logoColor=white" alt="Azeem Mirza Web Site">
+</a>
 <a href="https://instagram.com/azeeemmirza">
 <img src="https://img.shields.io/badge/Instagram-000?style=for-the-badge&logo=instagram&logoColor=white" alt="Azeem Mirza Web Site">
 </a>
