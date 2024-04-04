@@ -1,9 +1,9 @@
 {
   "title": "AZEEM MIRZA",
-  "subtitle": "Software Engineer | Data Scientist",
+  "subtitle": "Software Engineer",
 
-  "email": "azeem@azeemmirza.net",
-  "website":  "https://azeemmirza.net",
+  "email": "azeem@azeemmirza.co",
+  "website":  "https://azeemmirza.co",
   "work": {
     "title": "Sr. Software Engineer",
     "company": "Social Champ"
@@ -12,10 +12,6 @@
   "command": "npx azeemmirza",
 
   "links": [
-    {
-      "type" : "Facebook",
-      "link": "https://facebook.com/AzeemMirzaOfficial"
-    },
     {
       "type" : "Twitter",
       "link": "https://twitter.com/AzeeemMirza"
