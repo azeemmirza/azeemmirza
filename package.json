@@ -1,13 +1,13 @@
 {
   "name": "azeemmirza",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Business Card Repo",
   "main": "index.js",
   "license": "MIT",
   "author": {
     "name": "Azeem Mirza",
-    "email": "azeem@azeemmirza.net",
-    "url": "https://azeemmirza.net/"
+    "email": "azeem@azeemmirza.co",
+    "url": "https://azeemmirza.co/"
   },
   "scripts": {
     "start": "node ."
@@ -26,7 +26,6 @@
   "keywords": [
     "azeeemmirza",
     "Azeem Mirza",
-    "business card",
     "e-card"
   ],
   "dependencies": {
