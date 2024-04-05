@@ -17,6 +17,7 @@ node_modules/
 *.sublime-project
 *.sublime-workspace
 sftp-config.json
+.idea
 
 # Misc
 trash

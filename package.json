@@ -1,16 +1,17 @@
 {
   "name": "azeemmirza",
-  "version": "1.0.3",
-  "description": "Business Card Repo",
+  "version": "1.1.0",
+  "description": "A personal npm card for Azeem Mirza",
   "main": "index.js",
   "license": "MIT",
+  "type": "module",
   "author": {
     "name": "Azeem Mirza",
     "email": "azeem@azeemmirza.co",
     "url": "https://azeemmirza.co/"
   },
   "scripts": {
-    "start": "node ."
+    "start": "node ./src"
   },
   "bin": {
     "azeemmirza": "index.js"
@@ -29,6 +30,7 @@
     "e-card"
   ],
   "dependencies": {
-    "colors": "^1.4.0"
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0"
   }
 }
