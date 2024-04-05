@@ -2,21 +2,23 @@
   "name": "azeemmirza",
   "version": "1.1.0",
   "description": "A personal npm card for Azeem Mirza",
-  "main": "./src/index.js",
+  "main": "./bin/index.js",
   "license": "MIT",
   "type": "module",
+  "scripts": {
+    "start": "node ./bin/index.cjs",
+    "build": "node build.js",
+    "prepublish": "npm run build"
+  },
+  "bin": {
+    "azeemmirza": "./bin/index.cjs"
+  },
   "author": {
     "name": "Azeem Mirza",
     "email": "azeem@azeemmirza.co",
     "url": "https://azeemmirza.co/"
   },
-  "scripts": {
-    "start": "node ./src"
-  },
-  "bin": {
-    "azeemmirza": "./src/index.js"
-  },
-  "homepage": "https://github.com/azeemmirza/azeemmirza#readme",
+  "homepage": "https://azeeemmirza.co/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/azeemmirza/azeemmirza.git"

@@ -9,7 +9,6 @@ const options = {
     borderColor: 'blue',
 };
 
+const output = boxen(card, options)
 
-(function main() {
-    log(boxen(card, options));
-})()
+export default output;
