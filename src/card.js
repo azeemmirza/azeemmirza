@@ -1,4 +1,3 @@
-import colors from 'colors';
 import chalk from 'chalk';
 
 // Text + chalk definitions
