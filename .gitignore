@@ -27,3 +27,6 @@ trash
 .rvmrc
 .trashes
 *~
+
+.env
+.npmrc
