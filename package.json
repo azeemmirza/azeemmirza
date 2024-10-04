@@ -2,12 +2,12 @@
   "name": "azeemmirza",
   "version": "1.1.2",
   "description": "A personal npm card for Azeem Mirza",
+  "type": "module",
   "main": "./bin/index.js",
   "license": "MIT",
   "scripts": {
     "start": "node ./bin/index.cjs",
-    "build": "node build.js",
-    "prepublish": "npm run build"
+    "build": "node build.js"
   },
   "bin": {
     "azeemmirza": "./bin/index.cjs"

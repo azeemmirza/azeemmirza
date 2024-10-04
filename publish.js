@@ -1,7 +1,7 @@
-const dotenv = require('dotenv');
-const shell = require('shelljs');
-const fs = require('node:fs');
-const readline = require('node:readline');
+import dotenv from 'dotenv';
+import shell from 'shelljs';
+import fs from 'node:fs';
+import readline from 'node:readline/promises'; // use the promises API for readline
 
 // Helper to run shell commands
 function runCommand(command, errorMessage) {
@@ -10,12 +10,6 @@ function runCommand(command, errorMessage) {
     shell.exit(1);
   }
 }
-
-// Ask for version bump input (patch, minor, major)
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
 
 // Step 1: Create temporary .npmrc file with NPM_TOKEN for authentication
 const createNpmrcFile = () => {
@@ -34,14 +28,22 @@ const cleanUpNpmrcFile = () => {
   fs.unlinkSync('.npmrc');
 };
 
+dotenv.config(); // Load environment variables
 
-dotenv.config();
+// Step 3: Ask for version bump input (patch, minor, major) using readline promises
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
 
-// Start the process
-rl.question('Enter the version type (patch, minor, major): ', function (versionType) {
-  rl.close();
-
+async function run() {
   try {
+    // Prompt the user for version type
+    const versionType = await rl.question('Enter the version type (patch, minor, major): ');
+
+    // Close readline interface
+    rl.close();
+
     // Step 1: Create .npmrc file with NPM_TOKEN
     createNpmrcFile();
 
@@ -62,4 +64,9 @@ rl.question('Enter the version type (patch, minor, major): ', function (versionT
   }
 
   console.log('Version bumped and package published successfully!');
+}
+
+run().catch((err) => {
+  console.error(`Error: ${err.message}`);
+  process.exit(1);
 });
