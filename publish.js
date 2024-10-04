@@ -1,7 +1,7 @@
 import dotenv from 'dotenv';
 import shell from 'shelljs';
 import fs from 'node:fs';
-import readline from 'node:readline/promises'; // use the promises API for readline
+import readline from 'node:readline/promises';
 
 // Helper to run shell commands
 function runCommand(command, errorMessage) {
