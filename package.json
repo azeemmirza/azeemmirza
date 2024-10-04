@@ -1,6 +1,6 @@
 {
   "name": "azeemmirza",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "A personal npm card for Azeem Mirza",
   "type": "module",
   "main": "./bin/index.js",
