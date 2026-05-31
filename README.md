@@ -11,9 +11,6 @@ npx azeemmirza
 I believe the most interesting shift in software right now isn't a new framework or a faster database. It's the emergence of systems that reason. Generative and Agentic AI are changing what we can build and how we build it, not because the technology is new, but because it's the most honest way yet to close the distance between a human problem and a working solution.
 
 
-
-----
-
 [Website](azeemmirza.co)  |  [Blog](azeemmirza.co/blog)  |  [LinkedIn](linkedin.com/azeeemmirza)  |  [Twitter](x.com/azeeemmirza)  |  [Github](github.com/azeemmirza) 
 
 
