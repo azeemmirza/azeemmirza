@@ -4,9 +4,7 @@ I've spent twelve years taking software from concept to production from designin
 
 I have extensively used Python and TypeScript/JavaScript, for building backend , speedy pipelines, scripts, microservices. Bash has been a goto when something is closer to metal and automating what shouldn't need a human. And for data, PostgreSQL, MySQL MongoDB, Redis and Valkey has been the choice and need.
 
-These aren't preferences but tools I've used under production load, at scale, and more than once at 2am.
-
-You can pull my business card in your shell by:
+These aren't preferences but tools I've used under production load, at scale, and more than once at 2am. You can pull my business card in your shell by:
 
 ```
 npx azeemmirza
